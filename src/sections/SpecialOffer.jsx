@@ -1,6 +1,10 @@
 const SpecialOffer = () => {
   return (
-    <div>SpecialOffer</div>
+    <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
+      <div>
+        
+      </div>
+    </section>
   )
 }
 
