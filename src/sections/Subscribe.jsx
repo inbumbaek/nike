@@ -1,3 +1,5 @@
+import { Button } from "../components";
+
 const Subscribe = () => {
   return (
     <section className="max-container flex justify-between items-center max-lg:flex-col gap-10"
@@ -9,6 +11,9 @@ const Subscribe = () => {
       </h3>
       <div>
         <input type='text' placeholder='subscribe@nike.com' className='input' />
+        <div>
+          <Button label='Sign Up' fullWidth />
+        </div>
       </div>
     </section>
   )
