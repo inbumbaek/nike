@@ -7,6 +7,9 @@ const Subscribe = () => {
           Updates
         </span> & Newsletter
       </h3>
+      <div>
+        <input type='text' placeholder='subscribe@nike.com' className='input' />
+      </div>
     </section>
   )
 }
