@@ -10,6 +10,16 @@ const Footer = () => {
             Get shoes ready for the new term at your nearest Nike store. Find
             Your perfect Size In Store. Get Rewards
           </p>
+          <div className='flex items-center gap-5 mt-8'>
+            {socialMedia.map((icon) => (
+              <div
+                className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
+                key={icon.alt}
+              >
+                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </footer>
